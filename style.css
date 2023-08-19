@@ -1,0 +1,45 @@
+body {
+font-family: 'Rock Salt', cursive;
+background-image:url(img/rick_and_morty_s4_image-1.jpeg) ;
+background-size: cover;
+}
+
+.container {
+    text-align: center;
+    
+}
+
+.container h1 {
+    color: #416848;
+    margin-bottom: 0;
+    position: absolute;
+    margin-left: 30rem;
+    margin-top: 3rem;
+}
+
+.titulo-img {
+    height: 272px;
+    width: 640px;
+    margin-top: 0;
+}
+
+.about {
+    position: relative;
+    padding: 2rem;
+    display: flex;
+}
+
+.about img {
+    border: solid 10px #2b4430;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.about p {
+    background-color: rgba(250, 235, 215, 0.747);
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #2b4430;
+    font-weight: bold;
+}
+
