@@ -4,29 +4,27 @@ background-image:url(img/rick_and_morty_s4_image-1.jpeg) ;
 background-size: cover;
 }
 
-.container {
-    text-align: center;
-    
-}
-
-.container h1 {
-    color: #416848;
-    margin-bottom: 0;
-    position: absolute;
-    margin-left: 30rem;
-    margin-top: 3rem;
+figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .titulo-img {
     height: 272px;
     width: 640px;
-    margin-top: 0;
+}
+
+figcaption {
+    color: #416848;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .about {
-    position: relative;
     padding: 2rem;
     display: flex;
+    margin-bottom: 3rem;
 }
 
 .about img {
@@ -43,3 +41,53 @@ background-size: cover;
     font-weight: bold;
 }
 
+.curiosity {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b4430;
+    background-color: rgba(250, 235, 215, 0.747) ;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.curiosity-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.curiosity ul {
+    background-color: rgba(250, 235, 215, 0.747) ;
+    text-align: left;
+    border-radius: 2rem;
+    padding-right: 1rem;
+    font-weight: bold;
+    color: #2b4430;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.learn-more h3 {
+    background-color: rgba(250, 235, 215, 0.747) ;
+    border-radius: 2rem;
+    width: fit-content;
+    padding: 1rem;
+    color: #2b4430;
+}
+  
+.img-button {
+    height: 161px;
+    width: 110px;
+}
